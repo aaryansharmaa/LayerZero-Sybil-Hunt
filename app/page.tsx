@@ -95,7 +95,7 @@ const Home = () => {
         </a>
       </footer>
       <footer className="footer-left">
-        <p>Based on the sybil list released on 17th May*</p>
+        <p>Based on the initial Sybil list*</p>
       </footer>
     </div>
   );

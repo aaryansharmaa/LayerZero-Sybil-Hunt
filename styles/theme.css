@@ -228,24 +228,25 @@
   z-index: -1; /* Make sure the background is behind the content */
 }
 
+.footer-right,
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1da1f2;
+  text-decoration: none;
+}
+
 .footer-right {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: #101012;
 }
 
 .footer-left {
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: black;
 }
 
 .footer a {
@@ -255,4 +256,24 @@
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-right {
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .footer-left {
+    bottom: 2rem; /* Adjusted to avoid overlap with the right footer */
+    left: 0.5rem;
+  }
+
+  .footer a {
+    font-size: 0.875rem; /* Smaller font size for mobile */
+  }
+
+  .sniper-scope-background {
+    background-size: 175%; /* Increase the size of the sniper scope background */
+  }
 }
