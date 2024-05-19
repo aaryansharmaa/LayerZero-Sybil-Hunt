@@ -233,7 +233,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #1da1f2;
+  color: black;
   text-decoration: none;
 }
 
@@ -250,7 +250,7 @@
 }
 
 .footer a {
-  color: #1da1f2;
+  color: black;
   text-decoration: none;
 }
 
