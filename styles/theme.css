@@ -260,11 +260,14 @@
 
 @media (max-width: 768px) {
   .footer-right {
+    color: white;
     bottom: 0.5rem;
     right: 0.5rem;
   }
 
   .footer-left {
+    color: white;
+
     bottom: 2rem; /* Adjusted to avoid overlap with the right footer */
     left: 0.5rem;
   }

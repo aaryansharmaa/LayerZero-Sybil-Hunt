@@ -66,7 +66,7 @@ const Home = () => {
             type="submit"
             className="ml-2 p-2 primary-gradient rounded-xl"
           >
-            Search
+            Shoot
           </button>
         </form>
         {error && <p className="mt-5 text-red-500">{error}</p>}
